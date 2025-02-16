@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "build": "dotnet build FanControl.HWInfo.sln",
+    "test": "dotnet test"
+  }
+}

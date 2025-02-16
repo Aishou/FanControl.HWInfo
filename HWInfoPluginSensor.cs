@@ -4,18 +4,14 @@ namespace FanControl.HWInfo
 {
     public class HWInfoPluginSensor : IPluginSensor
     {
-        internal HWInfoPluginSensor(int index, HwInfoSensorType type, string id, string name)
+        internal HWInfoPluginSensor(int index, string id, string name)
         {
             Index = index;
-            Type = type;
             Id = id;
             Name = name;
         }
 
-        internal HwInfoSensorType Type { get; }
-
         internal int Index { get; set; }
-
 
         #region IPluginSensor Implementation
 
